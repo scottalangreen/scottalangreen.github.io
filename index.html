@@ -1,33 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Simple Map</title>
-    <link rel="stylesheet" href="https://openlayers.org/en/v5.3.0/css/ol.css" type="text/css">
-    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
-    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
 
-  </head>
-  <body>
-    <div id="map" class="map"></div>
-    <script>
-      import Map from 'ol/Map.js';
-      import View from 'ol/View.js';
-      import TileLayer from 'ol/layer/Tile.js';
-      import OSM from 'ol/source/OSM.js';
+<head>
+  <title>Our Company</title>
+</head>
 
+<body>
 
-      var map = new Map({
-        layers: [
-          new TileLayer({
-            source: new OSM()
-          })
-        ],
-        target: 'map',
-        view: new View({
-          center: [0, 0],
-          zoom: 2
-        })
-      });
-    </script>
-  </body>
+  <h1>Welcome to Our Company</h1>
+  <h2>Web Site Main Ingredients:</h2>
+
+  <p>Pages (HTML)</p>
+  <p>Style Sheets (CSS)</p>
+  <p>Computer Code (JavaScript)</p>
+  <p>Live Data (Files and Databases)</p>
+
+</body>
 </html>
